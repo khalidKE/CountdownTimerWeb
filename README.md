@@ -10,5 +10,5 @@ TimeMaster is a simple and interactive countdown timer web application. It allow
 - **Reset Timer**: Resets the timer back to the initial time.
 - **Responsive Design**: The layout is responsive and adjusts well to different screen sizes.
 
---
-Live Demo 
+-----
+Live Demo https://khalidke.github.io/CountdownTimerWeb/
