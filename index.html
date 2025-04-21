@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeMaster - Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>TimeMaster</h1>
+    </header>
+    <div class="container">
+        <div class="timer-card">
+            <h2>Countdown Timer</h2>
+            <div class="timer-display" id="timer">00:00</div>
+            <div class="timer-input">
+                <input type="text" id="timeInput" placeholder="MM:SS" pattern="\d{2}:\d{2}">
+                <button id="setButton">Set</button>
+            </div>
+            <div class="timer-controls">
+                <button id="startButton">Start</button>
+                <button id="pauseButton" disabled>Pause</button>
+                <button id="resetButton" disabled>Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
